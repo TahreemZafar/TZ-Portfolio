@@ -7,11 +7,11 @@ import Image from "next/image";
 
 function Encryption() {
   return (
-    <div className=" flex flex-row relative justify-center items-center min-h-screen w-full h-full ">
+    <div className=" flex flex-row relative justify-center items-center p-60 md:p-64 lg:min-h-screen w-full h-full z-20 ">
       <div className=" absolute top-0 w-auto h-auto z-[5] ">
         <motion.div
           variants={slideInFromTop}
-          className=" text-[40px] font-medium text-center text-gray-200 "
+          className=" text-[35px] lg:text-[40px] font-medium text-center text-gray-200 "
         >
           Performance{" "}
           <span className="text-transparent bg-clip-text  bg-gradient-to-r from-purple-500 to-cyan-500">

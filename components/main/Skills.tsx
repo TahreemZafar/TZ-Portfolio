@@ -5,9 +5,9 @@ import SkillText from '../sub/SkillText'
 
 function Skills() {
   return (
-    <section 
+    <div 
       id='skills'
-      className='flex flex-col items-center justify-center pb-80 gap-3 h-full relative overflex-hidden py-20 '
+      className='flex flex-col items-center z-40 justify-center pb-80 gap-3 h-full relative overflex-hidden py-20 '
       style={{ transform: "scale(0.9)" }}
        >
 
@@ -88,7 +88,7 @@ function Skills() {
 
 
 
-    </section>
+    </div>
   )
 }
 

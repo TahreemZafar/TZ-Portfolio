@@ -82,18 +82,11 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Instagram",
-      src: "/instagram.svg",
+      name: "Github",
+      src: "/gitwhite.png",
     },
-    {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
-      
-      name: "Discord",
-      src: "/discord.svg",
-    },
+  
+   
   ];
   
   
@@ -112,7 +105,7 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Java Script",
+      skill_name: "JavaScript",
       Image: "/js.png",
       width: 60,
       height: 60,
@@ -123,12 +116,7 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "Material UI",
-      Image: "/mui.png",
-      width: 70,
-      height: 70,
-    },
+    
     {
       skill_name: "React",
       Image: "/react.png",
@@ -153,12 +141,7 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "Next js 13",
-      Image: "/next.png",
-      width: 70,
-      height: 70,
-    },
+    
   ];
   
   export const Backend_skill = [
@@ -186,12 +169,7 @@ export const Skill_data = [
       width: 55,
       height: 55,
     },
-    {
-      skill_name: "Postger SQL",
-      Image: "/postger.png",
-      width: 70,
-      height: 70,
-    },
+    
     {
       skill_name: "My SQL",
       Image: "/mysql.png",
@@ -204,12 +182,7 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
-      width: 70,
-      height: 70,
-    },
+    
   ];
   
   export const Full_stack = [
@@ -219,12 +192,7 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
-      width: 70,
-      height: 70,
-    },
+    
     {
       skill_name: "Docker",
       Image: "/docker.webp",
@@ -245,10 +213,10 @@ export const Skill_data = [
   
   export const Other_skill = [
     {
-      skill_name: "Go",
-      Image: "/go.png",
-      width: 60,
-      height: 60,
+      skill_name: "Next js 13",
+      Image: "/next.png",
+      width: 70,
+      height: 70,
     },
   ];
   

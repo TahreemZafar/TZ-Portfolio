@@ -13,7 +13,7 @@ function SkillText() {
                variants={slideInFromTop}
             >
                 <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5 ' />
-                 <h1 className='Welcome-text text-[13px] ' >Think better with Next js 13</h1>
+                 <h1 className='Welcome-text text-[13px] ' > My Core Stack is Next js.</h1>
             </motion.div>
 
            
@@ -21,7 +21,7 @@ function SkillText() {
               variants={slideInFromLeft(0.5)}
               className='text-[30px] text-white font-medium mt-8 text-center mb-[15px] '
            >
-               Making apps with modern technologies
+               Making sites with modern technologies
            </motion.div>
 
 

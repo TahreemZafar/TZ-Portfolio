@@ -3,25 +3,29 @@ import ProjectCard from '../sub/ProjectCard';
 
 function Projects() {
   return (
-    <div id='projects' className='flex flex-col items-center justify-center py-20 ' >
+    <div id='projects' className='flex z-30 flex-col items-center justify-center py-20 ' >
 
-        <h1 className='text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20 ' >My Projects</h1>
+        <h1 className=' text-[37px] lg:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20 ' >My Projects</h1>
 
-        <div className='  h-full w-full flex flex-col md:flex-row gap-10 px-10 '>
+        <div className=' h-full w-full flex flex-col gap-5 md:flex-row lg:gap-6 px-10 md:grid-rows-2 md:flex-wrap lg:flex-nowrap '>
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/1.png"
+          href='https://tz-tiktok.vercel.app/'
+          title="Tiktok Clone"
+          desc="Full Stack Tiktok Clone with Next js, TypeScript, zustand, App Write, tailwind CSS and deployed on Vercel"
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/5.png"
+          href='https://tz-ricardo.vercel.app/'
+          title="Ricardo Portfolio"
+          desc=" Next js portfolio website with dark theme and Framer Motion, TypeScript, tailwind css and email "
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/3.png"
+          href='https://tz-airbnb.vercel.app/'
+          title="Airbnb Clone"
+          desc="Full Stack Airbnb Clone with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth 2023
+"
         />
       </div>
     </div>
