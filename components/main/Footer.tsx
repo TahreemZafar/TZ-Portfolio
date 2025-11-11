@@ -7,7 +7,8 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-import { FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaYoutube } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -18,47 +19,44 @@ const Footer = () => {
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[18px] mb-4">Community</div>
-                    <p className="flex flex-row items-center my-[10px] cursor-pointer">
+                    {/* <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         <FaYoutube size={18} />
                         <span className="text-[14px] ml-[6px]">Youtube</span>    
-                    </p>
+                    </p> */}
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         <RxGithubLogo size={18} />
                         <span className="text-[14px] ml-[6px]">Github</span>    
                     </p>
-                    <p className="flex flex-row items-center my-[10px] cursor-pointer">
-                        <RxDiscordLogo size={18} />
-                        <span className="text-[14px] ml-[6px]">Discord</span>    
-                    </p>
+                    
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[18px]  mb-4 ">Social Media</div>
-                    <p className="flex flex-row items-center my-[10px] cursor-pointer">
+                    {/* <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         <FaYoutube size={18} />
                         <span className="text-[14px] ml-[6px]">Instagram</span>    
                     </p>
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         <RxGithubLogo size={18} />
                         <span className="text-[14px] ml-[6px]">Twitter</span>    
-                    </p>
+                    </p> */}
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
-                        <RxDiscordLogo size={18} />
-                        <span className="text-[14px] ml-[6px]">Linkedin</span>    
+                        <FaLinkedin size={19} />
+                        <Link href="https://www.linkedin.com/in/tahreem-zafar-346676323/" className="text-[14px] ml-[6px]">Linkedin</Link>    
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[18px]  mb-4 ">About</div>
-                   <p className="flex flex-row items-center my-[10px] cursor-pointer">
+                   {/* <p className="flex flex-row items-center my-[10px] cursor-pointer">
                      
                         <span className="text-[14px] ml-[6px]">Become Sponsor</span>    
                     </p>
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                       
                         <span className="text-[14px] ml-[6px]">Learning about me</span>    
-                    </p>
+                    </p> */}
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                   
-                        <span className="text-[14px] ml-[6px]">test@gmail.com</span>    
+                        <span className="text-[14px] ml-[6px]">tahreem100m@gmail.com</span>    
                     </p>
                 </div>
             </div>

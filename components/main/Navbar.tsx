@@ -1,10 +1,12 @@
 import { Socials } from "@/cosnstants";
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
+import React, { Fragment } from "react";
+import { FaLinkedin } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div className="w-full h-[72px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10 ">
+    <div className="w-full h-[72px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-lg md:backdrop-blur-md z-50 px-0 md:px-3 lg:px-10 ">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px] ">
         <a
           href="#about-me"
@@ -28,16 +30,16 @@ function Navbar() {
                  <a href="#about-me" className=" cursor-pointer " > About me </a>
                  <a href="#skills" className=" cursor-pointer " > Skills </a>
                  <a href="#projects" className=" cursor-pointer " > Projects </a>
-                 <a href="#projects" className=" cursor-pointer " > Contact me </a>
+                 <a href="#contact" className=" cursor-pointer " > Contact me </a>
 
             </div>
          </div>
      
          
-         <div className="flex flex-row gap-5">
-             { Socials.map((social) => (
-              
-                  <a href={"https://github.com/TahreemZafar"} target="_blank">
+         <div className="flex flex-row gap-4 items-center justify-center ">
+             { Socials.map((social,i) => (
+              <Fragment key={i} >
+                  <Link href={"https://github.com/TahreemZafar"} target="_blank">
                  <Image
                     src={social.src}
                     alt={social.name}
@@ -46,7 +48,12 @@ function Navbar() {
                     height={30}
                     className=""  
                  />
-                 </a>
+                 </Link>
+
+                 <Link href="https://www.linkedin.com/in/tahreem-zafar-346676323/" >
+                   <FaLinkedin size={30} color="white" />
+                 </Link>
+                 </Fragment>
                 
              )) }
          </div>

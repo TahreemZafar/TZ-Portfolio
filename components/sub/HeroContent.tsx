@@ -12,7 +12,7 @@ function HeroContent() {
     <motion.div
         initial="hidden"
         animate="visible"
-        className='flex flex-row items-center justify-center px-20 mt-36 w-full z-[20]'
+        className='flex flex-row items-center justify-center pl-7 lg:pl-[60px] pr-7 md:pr-0 mt-[140px] w-full z-[20]'
        
     >
         <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start '>
@@ -21,15 +21,15 @@ function HeroContent() {
                variants={slideInFromTop}
             >
                 <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5 ' />
-                 <h1 className='Welcome-text text-[13px] ' >FullStack Developer Portfolio</h1>
+                 <h1 className='Welcome-text text-[13px] ' >About Me</h1>
             </motion.div>
  
 
             <motion.div variants={slideInFromLeft(0.5)}
-               className='flex flex-col mt-6 gap-6 text-5xl font-bold text-white w-auto h-auto max-w-[600px] '
+               className='flex flex-col mt-5 gap-6 text-[30px] sm:text-5xl font-bold text-white w-auto h-auto max-w-[600px] '
             >
                 <span>
-                Hi! Its  <span className='text-transparent bg-clip-text  bg-gradient-to-r from-purple-500 to-cyan-500'>Tahreem Zafar.<br /> </span>
+                Hi! I&apos;m <span className='text-transparent bg-clip-text  bg-gradient-to-r from-purple-500 to-cyan-500'>Tahreem.<br /> </span>
 
                 {/* <span className='text-3xl' >Your Full Stack Developer.</span> */}
                 </span>
@@ -41,9 +41,7 @@ function HeroContent() {
                 variants={slideInFromLeft(0.8)}
                 className='text-lg text-gray-400  max-w-[600px] '
              >
-                 I&apos;m a Self-taught Developer with expertise in simple to fully functioning Website
-                  development with 5 years of coding experience.
-                  And Ahmm! I'm not flattering myself but i was born with unique and elegant ✨💃 styling skills😎 .
+                I&apos;m a self-taught full-stack developer with over 5 years of experience building scalable, high-performance web applications using React, with a strong focus on Next.js. <br /> I can build everything from simple landing pages to fully dynamic, production-ready apps, bringing clean code and a unique visual touch to every layout I craft. I love turning ideas into responsive, user-friendly interfaces that feel intuitive and look elegant. <br /> <br /> If you're into frontend magic, smooth transitions, and a sprinkle of ✨flair✨—you&apos;re in the right place.
                   <br /><br />
                   Amazed by the space?
             </motion.p>
@@ -62,7 +60,7 @@ function HeroContent() {
           
           <motion.div
              variants={slideInFromRight(0.8)}
-             className='w-full hidden md:flex h-full items-center justify-center'
+             className='w-full hidden md:flex -right-20 h-full items-center justify-center'
           >
 
              <Image 
