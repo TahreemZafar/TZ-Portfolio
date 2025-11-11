@@ -41,7 +41,7 @@ function HeroContent() {
                 variants={slideInFromLeft(0.8)}
                 className='text-lg text-gray-400  max-w-[600px] '
              >
-                I&apos;m a self-taught full-stack developer with over 5 years of experience building scalable, high-performance web applications using React, with a strong focus on Next.js. <br /> I can build everything from simple landing pages to fully dynamic, production-ready apps, bringing clean code and a unique visual touch to every layout I craft. I love turning ideas into responsive, user-friendly interfaces that feel intuitive and look elegant. <br /> <br /> If you're into frontend magic, smooth transitions, and a sprinkle of ✨flair✨—you&apos;re in the right place.
+                I&apos;m a self-taught full-stack developer with over 5 years of experience building scalable, high-performance web applications using React, with a strong focus on Next.js. <br /> I can build everything from simple landing pages to fully dynamic, production-ready apps, bringing clean code and a unique visual touch to every layout I craft. I love turning ideas into responsive, user-friendly interfaces that feel intuitive and look elegant. <br /> <br /> If you&apos;re into frontend magic, smooth transitions, and a sprinkle of ✨flair✨—you&apos;re in the right place.
                   <br /><br />
                   Amazed by the space?
             </motion.p>
